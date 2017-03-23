@@ -150,9 +150,9 @@ namespace automateDRH
 
                         if (mysqlError)
                         {
-                            if (File.Exists(Properties.Settings.Default.FailPath + @"\" + MesFichiers.Name))
+                            if (File.Exists(Properties.Settings.Default.FileFailPath + @"\" + MesFichiers.Name))
                             {
-                                File.Delete(Properties.Settings.Default.FailPath + @"\" + MesFichiers.Name);
+                                File.Delete(Properties.Settings.Default.FileFailPath + @"\" + MesFichiers.Name);
                             }
                             File.Move(MesFichiers.FullName, Properties.Settings.Default.FileFailPath + @"\" + MesFichiers.Name);
                         }
@@ -179,8 +179,7 @@ namespace automateDRH
         private void writeFail(string Name, string Response)
         {
             WriteTxt write = new WriteTxt();
-            write.WriteTxtByString(Properties.Settings.Default.FailPath + @"\" + DateTime.Now.ToString("HH:mm:ss-dd/MM/yyyy") + "_" + Name + "_" +
-            Properties.Settings.Default.NameFail + ".txt", "(" + DateTime.Now.ToString() + ")" + Name + " : " + Response);
+            write.WriteTxtByString(Properties.Settings.Default.FailPath + @"\ErreurFile_" + DateTime.Now.ToString("ddMMM HH_mm_ss") + ".txt", "(" + DateTime.Now.ToString() + ")" + Name + " : " + Response);
         }
 
         private void PostTraitement()
@@ -207,12 +206,16 @@ namespace automateDRH
         private void ZipFile()
         {
             FastZip Zip = new FastZip();
-            Zip.Password = Properties.Settings.Default.mdp;
-            AddList(string.Format("Mot de passe par defaut : {0}", Properties.Settings.Default.mdp), Color.FromName(Properties.Settings.Default.ColorLogNormal));
+            if(Properties.Settings.Default.mdp != "")
+            {
+                Zip.Password = Properties.Settings.Default.mdp;
+                AddList(string.Format("Mot de passe par defaut : {0}", Properties.Settings.Default.mdp), Color.FromName(Properties.Settings.Default.ColorLogNormal));
+            }
+ 
             int nbFichiersSD = Directory.GetFiles(Properties.Settings.Default.traitementPath, "*.*", SearchOption.TopDirectoryOnly).Length;
             if (nbFichiersSD != 0)
             {
-                Zip.CreateZip(Properties.Settings.Default.SavePath + @"\" + Properties.Settings.Default.NameZip + DateTime.Now.ToString("HH:mm:ss-dd/MM/yyyy")
+                Zip.CreateZip(Properties.Settings.Default.SavePath + @"\" + Properties.Settings.Default.NameZip + DateTime.Now.ToString("ddMMM HH_mm_ss")
                     + ".zip", Properties.Settings.Default.traitementPath, false, null);
             }
         }

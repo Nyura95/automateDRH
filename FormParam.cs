@@ -52,6 +52,10 @@ namespace automateDRH
 
             for (int i = 0; i < listparam.RowCount; i++)
             {
+                if (listparam.Rows[i].Cells[2].Value == null)
+                {
+                    listparam.Rows[i].Cells[2].Value = "";
+                }
                 Properties.Settings.Default[listparam.Rows[i].Cells[0].Value.ToString()] = listparam.Rows[i].Cells[2].Value.ToString();
             }
             Properties.Settings.Default.Save();
