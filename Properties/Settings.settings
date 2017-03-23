@@ -1,0 +1,81 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WindowsFormsApplication2.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="hostmysql" Type="System.String" Scope="User">
+      <Value Profile="(Default)">localhost</Value>
+    </Setting>
+    <Setting Name="usermysql" Type="System.String" Scope="User">
+      <Value Profile="(Default)">root</Value>
+    </Setting>
+    <Setting Name="mdpmysql" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="database" Type="System.String" Scope="User">
+      <Value Profile="(Default)">cap_rh</Value>
+    </Setting>
+    <Setting Name="SqlPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\\Users\\Alexis\\Desktop\\sql</Value>
+    </Setting>
+    <Setting Name="traitementPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\\Users\\Alexis\\Desktop\\desti</Value>
+    </Setting>
+    <Setting Name="CheckPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\\Users\\Alexis\\Desktop\\arrive</Value>
+    </Setting>
+    <Setting Name="SavePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\\Users\\Alexis\\Desktop\\sql</Value>
+    </Setting>
+    <Setting Name="LogPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\\Users\\Alexis\\Desktop\\sql</Value>
+    </Setting>
+    <Setting Name="NameLog" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Log</Value>
+    </Setting>
+    <Setting Name="FailPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\\Users\\Alexis\\Desktop\\sql</Value>
+    </Setting>
+    <Setting Name="NameFail" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ERREUR_SQL</Value>
+    </Setting>
+    <Setting Name="NameZip" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ZephirSave_</Value>
+    </Setting>
+    <Setting Name="LogSeparation" Type="System.String" Scope="User">
+      <Value Profile="(Default)">;</Value>
+    </Setting>
+    <Setting Name="mdp" Type="System.String" Scope="User">
+      <Value Profile="(Default)">caprhsave2015</Value>
+    </Setting>
+    <Setting Name="ColorLogNormal" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="ColorLogFail" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Red</Value>
+    </Setting>
+    <Setting Name="ColorLogStart" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Blue</Value>
+    </Setting>
+    <Setting Name="NameSql" Type="System.String" Scope="User">
+      <Value Profile="(Default)">import_</Value>
+    </Setting>
+    <Setting Name="ExtFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.csv</Value>
+    </Setting>
+    <Setting Name="PosttraitementPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\\Users\\Alexis\\Desktop\\sql\\caprhsql\\POST_TRAITEMENT_AUTOMATE\\</Value>
+    </Setting>
+    <Setting Name="PosttraitementTable" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Absences.csv;Effectif.csv</Value>
+    </Setting>
+    <Setting Name="PosttraitementName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">POST_TRAITEMENT_AUTOMATE.sql</Value>
+    </Setting>
+    <Setting Name="FileFailPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\\Users\\Alexis\\Desktop\\sql</Value>
+    </Setting>
+    <Setting Name="ColorLogTraitement" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Gray</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

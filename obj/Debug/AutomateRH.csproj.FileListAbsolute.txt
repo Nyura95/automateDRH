@@ -1,0 +1,4 @@
+E:\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.FormParam.resources
+E:\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Home.resources
+E:\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\AutomateRH.Properties.Resources.resources
+E:\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\AutomateRH.csproj.GenerateResource.Cache
