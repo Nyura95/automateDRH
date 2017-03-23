@@ -13,7 +13,6 @@ C:\Users\taxis\Desktop\taff\automateDRH\WindowsFormsApplication2\bin\Debug\autom
 C:\Users\taxis\Desktop\taff\automateDRH\WindowsFormsApplication2\bin\Debug\automateDRH.exe
 C:\Users\taxis\Desktop\taff\automateDRH\WindowsFormsApplication2\bin\Debug\automateDRH.pdb
 C:\Users\taxis\Desktop\taff\automateDRH\WindowsFormsApplication2\bin\Debug\MySql.Data.dll
-C:\Users\taxis\Desktop\taff\automateDRH\WindowsFormsApplication2\obj\Debug\automateDRH.csprojResolveAssemblyReference.cache
 C:\Users\taxis\Desktop\taff\automateDRH\WindowsFormsApplication2\obj\Debug\automateDRH.FormParam.resources
 C:\Users\taxis\Desktop\taff\automateDRH\WindowsFormsApplication2\obj\Debug\automateDRH.Home.resources
 C:\Users\taxis\Desktop\taff\automateDRH\WindowsFormsApplication2\obj\Debug\automateDRH.Properties.Resources.resources
